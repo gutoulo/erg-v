@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+page {
+	font-size: 100px;
+	animation:myfirst 5s infinite;
+}
+#he {
+	background-color: #09F;
+	animation:he 5s infinite;
+}
+#ya {
+	background-color: #FF0;
+	animation:ya 5s infinite;
+}
+#xin {
+	background-color: #C6C;
+	animation:xin 5s infinite;
+}
+@keyframes he{
+	0%{opacity:0;}
+    25%{opacity:100;}
+	50%{opacity:0;}
+	100%{opacity:0;}
+}
+@keyframes ya{
+	0%{opacity:0;}
+    25%{opacity:0;}
+	50%{opacity:100;}
+	75%{opacity:0;}
+	100%{opacity:0;}
+	
+}
+@keyframes xin{
+	0%{opacity:0;}
+    25%{opacity:0;}
+	50%{opacity:0;}
+	75%{opacity:100;}
+	100%{opacity:0;}
+}
+</style></head
+
+<body>
+<page><span id="he">菇</span></page>
+<page><span id="ya">头</span></page>
+<page><span id="xin">咯</span></page>
+</body>
+</html>
